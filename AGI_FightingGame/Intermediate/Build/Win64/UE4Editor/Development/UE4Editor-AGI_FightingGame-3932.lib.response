@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AGI_FightingGame-3932.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGame.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGameCharacter.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGameGameMode.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\BasicStateMachine.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\FighterGameInstance.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGame.init.gen.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGameCharacter.gen.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGameGameMode.gen.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\BasicStateMachine.gen.cpp.obj"
+"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\FighterGameInstance.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"\\Moriarty\ljd1amt$\agirepo\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame-3932.lib"

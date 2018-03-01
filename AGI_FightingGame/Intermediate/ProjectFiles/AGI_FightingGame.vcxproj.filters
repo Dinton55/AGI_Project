@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\AGI_FightingGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{05014A21-74FE-45A4-B0E0-59BF781617B8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AGI_FightingGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AGI_FightingGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0B7641CC-E6E4-4081-988C-E9236733EE61}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\AGI_FightingGame">
+			<UniqueIdentifier>{F24A4C88-8091-44E8-94DE-EFC1577D906C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AGI_FightingGame\AGI_FightingGame.Build.cs">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\AGI_FightingGame.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\AGI_FightingGame.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\AGI_FightingGameCharacter.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\AGI_FightingGameCharacter.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\AGI_FightingGameGameMode.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\AGI_FightingGameGameMode.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\BasicStateMachine.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\BasicStateMachine.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\CharStateManager.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\CharStateManager.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\FighterGameInstance.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\FighterGameInstance.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\P2_Character.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\P2_Character.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AGI_FightingGame\P2_Controller.cpp">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGI_FightingGame\P2_Controller.h">
+			<Filter>Source\AGI_FightingGame</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

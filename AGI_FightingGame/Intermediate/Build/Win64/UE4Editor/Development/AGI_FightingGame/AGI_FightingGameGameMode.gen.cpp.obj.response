@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Source
-/I C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\AGI_FightingGame
-/I C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Source\AGI_FightingGame
+/I C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Source
+/I C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\AGI_FightingGame
+/I C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Source\AGI_FightingGame
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -355,9 +355,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\AGI_FightingGame\AGI_FightingGameGameMode.gen.cpp"
-/FI"C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\Definitions.AGI_FightingGame.h"
-/Fo"C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGameGameMode.gen.cpp.obj"
+"C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Inc\AGI_FightingGame\AGI_FightingGameGameMode.gen.cpp"
+/FI"C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\Definitions.AGI_FightingGame.h"
+/Fo"C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\AGI_FightingGame\AGI_FightingGameGameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4

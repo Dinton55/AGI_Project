@@ -1,3 +1,3 @@
-C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Source\AGI_FightingGame\AGI_FightingGame.Build.cs
-C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Source\AGI_FightingGame.Target.cs
-C:\Users\Luke\Documents\REPOS\AGI_Fighter\AGI_FightingGame\Source\AGI_FightingGameEditor.Target.cs
+C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Source\AGI_FightingGame\AGI_FightingGame.Build.cs
+C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Source\AGI_FightingGame.Target.cs
+C:\Users\ljd1amt\AGI\AGI_Project\AGI_FightingGame\Source\AGI_FightingGameEditor.Target.cs

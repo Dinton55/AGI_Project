@@ -95,6 +95,23 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation_Times")
 		float MovingKickTime;
 
+	UFUNCTION()
+		void OnLeftHandOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	// COLLISIONS
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fist_Collision")
+		class USphereComponent* LeftHand;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fist_Collision")
+		class USphereComponent* RightHand;
+
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Foot_Collision")
+		class USphereComponent* LeftFoot;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Foot_Collision")
+		class USphereComponent* RightFoot;
 
 	// States
 
@@ -122,10 +139,13 @@ protected:
 
 	float CurrentRightSpeed;
 
-	FORCEINLINE void SetStateToIdle() { CurrentState = ECurrentState::IDLE; }
+	void SetStateToIdle();
 	FORCEINLINE void SetStateToCrouch() { CurrentState = ECurrentState::CROUCHING; }
 
 	// ABILITY DURATIONS
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Shield")
+		class UStaticMeshComponent* ShieldMesh;
 
 public:
 	AAGI_FightingGameCharacter();

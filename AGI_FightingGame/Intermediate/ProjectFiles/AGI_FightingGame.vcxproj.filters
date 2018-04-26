@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\AGI_FightingGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{05014A21-74FE-45A4-B0E0-59BF781617B8}</UniqueIdentifier>
+			<UniqueIdentifier>{77A55C0C-CB4C-472F-B3EA-5029E7E07C57}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\AGI_FightingGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0B7641CC-E6E4-4081-988C-E9236733EE61}</UniqueIdentifier>
+			<UniqueIdentifier>{D4379011-AD25-491A-85DE-C0E2C9D56D9F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\AGI_FightingGame">
-			<UniqueIdentifier>{F24A4C88-8091-44E8-94DE-EFC1577D906C}</UniqueIdentifier>
+			<UniqueIdentifier>{047D74A2-4333-4257-A22B-1F8F002B5D75}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\AGI_FightingGame\AGI_FightingGame.Build.cs">
 			<Filter>Source\AGI_FightingGame</Filter>

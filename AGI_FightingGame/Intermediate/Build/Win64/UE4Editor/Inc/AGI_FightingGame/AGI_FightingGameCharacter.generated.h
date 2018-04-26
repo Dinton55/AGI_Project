@@ -8,13 +8,48 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef AGI_FIGHTINGGAME_AGI_FightingGameCharacter_generated_h
 #error "AGI_FightingGameCharacter.generated.h already included, missing '#pragma once' in AGI_FightingGameCharacter.h"
 #endif
 #define AGI_FIGHTINGGAME_AGI_FightingGameCharacter_generated_h
 
-#define AGI_FightingGame_Source_AGI_FightingGame_AGI_FightingGameCharacter_h_40_RPC_WRAPPERS
-#define AGI_FightingGame_Source_AGI_FightingGame_AGI_FightingGameCharacter_h_40_RPC_WRAPPERS_NO_PURE_DECLS
+#define AGI_FightingGame_Source_AGI_FightingGame_AGI_FightingGameCharacter_h_40_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnLeftHandOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OnLeftHandOverlapBegin(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	}
+
+
+#define AGI_FightingGame_Source_AGI_FightingGame_AGI_FightingGameCharacter_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnLeftHandOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->OnLeftHandOverlapBegin(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	}
+
+
 #define AGI_FightingGame_Source_AGI_FightingGame_AGI_FightingGameCharacter_h_40_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAGI_FightingGameCharacter(); \
@@ -70,7 +105,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAGI_FightingGameCharacter); \
 	FORCEINLINE static uint32 __PPO__CrouchPunchTime() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, CrouchPunchTime); } \
 	FORCEINLINE static uint32 __PPO__CrouchKickTime() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, CrouchKickTime); } \
 	FORCEINLINE static uint32 __PPO__MovingPunchTime() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, MovingPunchTime); } \
-	FORCEINLINE static uint32 __PPO__MovingKickTime() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, MovingKickTime); }
+	FORCEINLINE static uint32 __PPO__MovingKickTime() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, MovingKickTime); } \
+	FORCEINLINE static uint32 __PPO__LeftHand() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, LeftHand); } \
+	FORCEINLINE static uint32 __PPO__RightHand() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, RightHand); } \
+	FORCEINLINE static uint32 __PPO__LeftFoot() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, LeftFoot); } \
+	FORCEINLINE static uint32 __PPO__RightFoot() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, RightFoot); } \
+	FORCEINLINE static uint32 __PPO__ShieldMesh() { return STRUCT_OFFSET(AAGI_FightingGameCharacter, ShieldMesh); }
 
 
 #define AGI_FightingGame_Source_AGI_FightingGame_AGI_FightingGameCharacter_h_37_PROLOG

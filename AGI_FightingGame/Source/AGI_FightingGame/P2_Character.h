@@ -48,6 +48,7 @@ public:
 		EP2CurrentState P2CurrentState;
 
 
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -84,6 +85,26 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation_Times")
 		float MovingKickTime;
+
+	// COLLISIONS
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fist_Collision")
+		class USphereComponent* LeftHand;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Fist_Collision")
+		class USphereComponent* RightHand;
+
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Foot_Collision")
+		class USphereComponent* LeftFoot;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Foot_Collision")
+		class USphereComponent* RightFoot;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Health")
+		int health;
+
+	UFUNCTION(BlueprintCallable, Category = "Health")
+		void P2_TakeDamage(int Damage) { health -= Damage; };
 
 	// States
 

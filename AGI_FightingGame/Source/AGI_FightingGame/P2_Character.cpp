@@ -2,6 +2,7 @@
 
 #include "P2_Character.h"
 #include "TimerManager.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 AP2_Character::AP2_Character()
@@ -11,14 +12,26 @@ AP2_Character::AP2_Character()
 
 	//AutoPossessPlayer = EAutoReceiveInput::Player1;
 
+	LeftHand = CreateDefaultSubobject<USphereComponent>(TEXT("Left_Hand"));
+	RightHand = CreateDefaultSubobject<USphereComponent>(TEXT("Right_Hand"));
+	LeftFoot = CreateDefaultSubobject<USphereComponent>(TEXT("Left_Foot"));
+	RightFoot = CreateDefaultSubobject<USphereComponent>(TEXT("Right_Foot"));
+
+	// Will only be active in specified state i.e kicking/punching
+	LeftHand->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	RightHand->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	LeftFoot->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	RightFoot->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
 	P2CurrentState = EP2CurrentState::IDLE;
+
+	health = 100;
 }
 
 // Called when the game starts or when spawned
 void AP2_Character::BeginPlay()
 {
 	Super::BeginPlay();
-
 
 }
 

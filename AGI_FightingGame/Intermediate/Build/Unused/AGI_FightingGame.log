@@ -1,6 +1,31 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Luke\Documents\Unreal Projects\AGI_FightingGame\Intermediate\ProjectFiles\AGI_FightingGame.vcxproj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Luke\Documents\Unreal Projects\AGI_FightingGame\Intermediate\ProjectFiles\UE4.vcxproj]
-  Compiling game modules for hot reload
-  Target is up to date
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\ProjectFiles\AGI_FightingGame.vcxproj]
+  Creating makefile for AGI_FightingGameEditor (ini files are newer than UBTMakefile)
+  Parsing headers for AGI_FightingGameEditor
+    Running UnrealHeaderTool "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\AGI_FightingGame.uproject" "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\AGI_FightingGameEditor\Development\AGI_FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for AGI_FightingGameEditor in 7.3761834 seconds
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-1816.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-1816.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-2731.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-2731.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-381.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-381.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-4180.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-4180.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-4612.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-4612.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-6665.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-6665.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-8074.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-8074.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-8523.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-8523.pdb".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-9174.dll".
+  Deleting old hot reload file: "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Binaries\Win64\UE4Editor-AGI_FightingGame-9174.pdb".
+  Performing 3 actions (4 in parallel)
+  AGI_FightingGameCharacter.cpp
+  [2/3] Link UE4Editor-AGI_FightingGame.dll
+  [3/3] Link UE4Editor-AGI_FightingGame.lib
+     Creating library C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame.lib and object C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame.exp
+     Creating library C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame.suppressed.lib and object C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame.suppressed.exp
   Deploying AGI_FightingGameEditor Win64 Development...
-  Total build time: 6.00 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 16.41 seconds (Local executor: 2.58 seconds)

@@ -1,0 +1,1549 @@
+﻿Log file open, 04/19/18 19:48:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AGI_FightingGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-260406486) SRandInit(-260406486).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163457
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.19-18.48.36:421][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.19-18.48.36:421][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.19-18.48.36:432][  0]LogInit: Computer: DESKTOP-PJF3GQ6
+[2018.04.19-18.48.36:432][  0]LogInit: User: Luke
+[2018.04.19-18.48.36:432][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.19-18.48.36:432][  0]LogInit: High frequency timer resolution =3.421871 MHz
+[2018.04.19-18.48.36:432][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.19-18.48.36:432][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-18.48.36:432][  0]LogMemory: Process Physical Memory: 282.43 MB used, 282.43 MB peak
+[2018.04.19-18.48.36:432][  0]LogMemory: Process Virtual Memory: 290.29 MB used, 290.29 MB peak
+[2018.04.19-18.48.36:432][  0]LogMemory: Physical Memory: 6840.05 MB used,  9489.67 MB free, 16329.73 MB total
+[2018.04.19-18.48.36:432][  0]LogMemory: Virtual Memory: 703.88 MB used,  9489.67 MB free, 134217728.00 MB total
+[2018.04.19-18.48.36:591][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.19-18.48.36:591][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.19-18.48.36:594][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.19-18.48.37:188][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.19-18.48.37:231][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.19-18.48.37:231][  0]LogD3D11RHI:       8086/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.19-18.48.37:233][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.19-18.48.37:233][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.19-18.48.37:233][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.19-18.48.37:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.19-18.48.37:238][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.19-18.48.37:238][  0]LogWindows: EnumDisplayDevices:
+[2018.04.19-18.48.37:238][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.19-18.48.37:238][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.04.19-18.48.37:238][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.19-18.48.37:238][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.19-18.48.37:239][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.19-18.48.37:239][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.19-18.48.37:239][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.19-18.48.37:239][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.19-18.48.37:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.19-18.48.37:260][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.19-18.48.37:270][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.19-18.48.37:320][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Intermediate/Shaders/WorkingDirectory/4724/).
+[2018.04.19-18.48.37:320][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/4EBCDDFB4A4676238E6BED8DDEDD4DA2/'.
+[2018.04.19-18.48.37:320][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.19-18.48.38:074][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.19-18.48.38:122][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.19-18.48.38:172][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.19-18.48.38:220][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.19-18.48.38:270][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.19-18.48.38:317][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.19-18.48.38:366][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.19-18.48.38:413][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.19-18.48.38:457][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.19-18.48.38:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.19-18.48.38:550][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.19-18.48.38:596][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.19-18.48.38:646][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.19-18.48.38:693][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.19-18.48.38:739][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.19-18.48.38:834][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.19-18.48.38:834][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.19-18.48.38:871][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.19-18.48.38:956][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.19-18.48.38:981][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.19-18.48.39:027][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.19-18.48.39:074][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.19-18.48.39:120][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.19-18.48.39:167][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.19-18.48.39:167][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.19-18.48.39:607][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.19-18.48.39:690][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Luke/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.19-18.48.39:690][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.19-18.48.39:690][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.19-18.48.39:690][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.19-18.48.39:690][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.19-18.48.39:690][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.19-18.48.39:703][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.19-18.48.39:715][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.19-18.48.39:723][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.19-18.48.39:723][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.19-18.48.39:724][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.19-18.48.39:724][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.19-18.48.39:968][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.04.19-18.48.40:067][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.19-18.48.40:224][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.19-18.48.40:493][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.19-18.48.40:531][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.19-18.48.40:531][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.19-18.48.40:531][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.19-18.48.40:531][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.19-18.48.40:531][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.19-18.48.40:886][  0]LogNetVersion: AGI_FightingGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1367398240)
+[2018.04.19-18.48.41:119][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.078398 seconds
+[2018.04.19-18.48.41:124][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.19-18.48.41:124][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.04.19-18.48.41:124][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.19-18.48.41:175][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.19-18.48.43:571][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.19-18.48.43:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.19-18.48.44:062][  0]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.48.44:213][  0]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.48.44:215][  0]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.48.44:219][  0]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.48.44:460][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.19-18.48.44:840][  0]SourceControl: Source control is disabled
+[2018.04.19-18.48.44:841][  0]SourceControl: Source control is disabled
+[2018.04.19-18.48.44:888][  0]SourceControl: Source control is disabled
+[2018.04.19-18.48.44:934][  0]SourceControl: Source control is disabled
+[2018.04.19-18.48.45:494][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.19-18.48.45:734][  0]LogOcInput: OculusInput pre-init called
+[2018.04.19-18.48.45:975][  0]LogEngine: Initializing Engine...
+[2018.04.19-18.48.45:977][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.19-18.48.46:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.19-18.48.46:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.19-18.48.46:325][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.19-18.48.46:333][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-18.48.46:343][  0]LogInit: FAudioDevice initialized.
+[2018.04.19-18.48.46:425][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Luke/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.19-18.48.46:439][  0]LogInit: Texture streaming: Enabled
+[2018.04.19-18.48.46:537][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.19-18.48.46:743][  0]LogInit: Transaction tracking system initialized
+[2018.04.19-18.48.47:035][  0]BlueprintLog: New page: Editor Load
+[2018.04.19-18.48.47:897][  0]LocalizationService: Localization service is disabled
+[2018.04.19-18.48.48:538][  0]LogConsoleResponse: Display: 
+[2018.04.19-18.48.48:703][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.19-18.48.48:703][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.19-18.48.48:703][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.19-18.48.49:650][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/' took 0.04s
+[2018.04.19-18.48.49:694][  0]SourceControl: Source control is disabled
+[2018.04.19-18.48.49:694][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.19-18.48.49:694][  0]LightingResults: New page: Lighting Build
+[2018.04.19-18.48.49:734][  0]MapCheck: New page: Map Check
+[2018.04.19-18.48.49:734][  0]LightingResults: New page: Lighting Build
+[2018.04.19-18.48.50:010][  0]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.04.19-18.48.50:011][  0]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] [0015.86] Compile of PersistentLevel.SideScrollerExampleMap successful, but with 1 Warning(s) [in 2 ms] (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap)
+[2018.04.19-18.48.50:011][  0]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.48.50:180][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-18.48.50:189][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.19-18.48.50:210][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.19-18.48.50:279][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.031ms to complete.
+[2018.04.19-18.48.50:279][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.585
+[2018.04.19-18.48.50:430][  0]LogCollectionManager: Loaded 0 collections in 0.001705 seconds
+[2018.04.19-18.48.50:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Collections/' took 0.01s
+[2018.04.19-18.48.50:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/Developers/Luke/Collections/' took 0.01s
+[2018.04.19-18.48.50:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/Collections/' took 0.01s
+[2018.04.19-18.48.50:516][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.19-18.48.50:525][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2393 classes and 502 folders.
+[2018.04.19-18.48.50:585][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2018.04.19-18.48.50:709][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.04.19-18.48.50:766][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2018.04.19-18.48.50:822][  0]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.19-18.48.50:825][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.19-18.48.50:835][  0]LogSlate: Took 0.003938 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.19-18.48.50:838][  0]LogSlate: Took 0.001775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.19-18.48.50:946][  0]LogRenderer: Reallocating scene render targets to support 1232x584 Format 10 NumSamples 1 (Frame:1).
+[2018.04.19-18.48.51:208][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2018.04.19-18.48.51:209][  0]LogLoad: (Engine Initialization) Total time: 17.06 seconds
+[2018.04.19-18.48.51:209][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.19-18.48.51:209][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.19-18.48.51:209][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.19-18.48.51:218][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.19-18.48.51:250][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.19-18.48.51:282][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/' took 0.05s
+[2018.04.19-18.48.51:293][  1]LogAssetRegistry: Asset discovery search completed in 11.3468 seconds
+[2018.04.19-18.48.51:295][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.19-18.48.51:295][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000147 seconds (updated 0 objects)
+[2018.04.19-18.48.52:263][ 90]LogSlate: Took 0.008872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.19-18.49.29:462][519]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-18.49.29:554][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.49.29:554][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-18.49.29:559][519]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 20:49:29)
+[2018.04.19-18.49.29:594][519]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-18.49.29:595][519]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.49.29:611][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016497s)
+[2018.04.19-18.49.29:612][519]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-18.49.29:612][519]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2018.04.19-18.49.29:612][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.018290s)
+[2018.04.19-18.49.29:632][519]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-18.49.29:638][519]LogInit: FAudioDevice initialized.
+[2018.04.19-18.49.29:680][519]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.49.29:683][519]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-19.49.29
+[2018.04.19-18.49.29:684][519]LogWorld: Bringing up level for play took: 0.002397
+[2018.04.19-18.49.29:725][519]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 11 classes and 0 folders.
+[2018.04.19-18.49.29:725][519]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.49.29:725][519]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.04.19-18.49.29:725][519]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.49.29:726][519]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-18.49.29:728][519]LogInit: WinSock: I am DESKTOP-PJF3GQ6 (192.168.1.203:0)
+[2018.04.19-18.49.29:729][519]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-18.49.29:729][519]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2018.04.19-18.49.29:730][519]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-18.49.29:730][519]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-18.49.29:731][519]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap 0.639
+[2018.04.19-18.49.29:735][519]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 20:49:29)
+[2018.04.19-18.49.29:792][519]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.49.29:793][519]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.49.29:793][519]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.04.19-18.49.29:793][519]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-18.49.29:793][519]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-18.49.29:793][519]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-18.49.29:793][519]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-18.49.29:796][519]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap 0.705
+[2018.04.19-18.49.29:806][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.49.29:807][519]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-18.49.29:807][519]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-18.49.29:807][519]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2018.04.19-18.49.29:807][519]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2018.04.19-18.49.29:808][519]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2018.04.19-18.49.29:818][519]Cmd: MEM
+[2018.04.19-18.49.29:827][519]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-18.49.29:827][519]LogMemory: Process Physical Memory: 1074.37 MB used, 1248.22 MB peak
+[2018.04.19-18.49.29:827][519]LogMemory: Process Virtual Memory: 1721.76 MB used, 1779.95 MB peak
+[2018.04.19-18.49.29:827][519]LogMemory: Physical Memory: 6947.77 MB used,  9381.96 MB free, 16329.73 MB total
+[2018.04.19-18.49.29:828][519]LogMemory: Virtual Memory: 2604.84 MB used,  9381.96 MB free, 134217728.00 MB total
+[2018.04.19-18.49.29:828][519]LogMemory: 
+[2018.04.19-18.49.29:828][519]Allocator Stats for TBB: (not implemented)
+[2018.04.19-18.49.30:302][519]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-18.49.30:303][519]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.49.30:304][519]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-19.49.30
+[2018.04.19-18.49.30:305][519]LogWorld: Bringing up level for play took: 0.001224
+[2018.04.19-18.49.30:305][519]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.49.30:306][519]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.49.30:308][519]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.49.30:309][519]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.49.30:311][519]LogLoad: Took 0.503077 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-18.49.30:362][520]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-18.49.30:362][520]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_1
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-18.49.30:363][520]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-18.49.31:313][629]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.49.31:313][629]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.49.31:322][629]Cmd: MEM
+[2018.04.19-18.49.31:330][629]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-18.49.31:330][629]LogMemory: Process Physical Memory: 1235.57 MB used, 1248.22 MB peak
+[2018.04.19-18.49.31:330][629]LogMemory: Process Virtual Memory: 2065.94 MB used, 2078.22 MB peak
+[2018.04.19-18.49.31:330][629]LogMemory: Physical Memory: 7036.70 MB used,  9293.03 MB free, 16329.73 MB total
+[2018.04.19-18.49.31:330][629]LogMemory: Virtual Memory: 2898.71 MB used,  9293.03 MB free, 134217728.00 MB total
+[2018.04.19-18.49.31:330][629]LogMemory: 
+[2018.04.19-18.49.31:330][629]Allocator Stats for TBB: (not implemented)
+[2018.04.19-18.49.31:330][629]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-18.49.31:331][629]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.49.31:349][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018775s)
+[2018.04.19-18.49.31:350][629]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-18.49.31:351][629]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2018.04.19-18.49.31:351][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.020836s)
+[2018.04.19-18.49.31:351][629]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.49.31:357][629]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-19.49.31
+[2018.04.19-18.49.31:357][629]LogWorld: Bringing up level for play took: 0.005370
+[2018.04.19-18.49.31:358][629]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.49.31:358][629]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.49.31:359][629]LogLoad: Took 0.046504 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-18.49.45:056][267]LogTemp: Warning: UPPERCUT
+[2018.04.19-18.49.46:184][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.49.46:270][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.49.46:278][402]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-18.49.46:278][402]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-18.49.46
+[2018.04.19-18.49.46:278][402]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-18.49.46:280][402]LogExit: PendingNetDriver None shut down
+[2018.04.19-18.49.52:430][114]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.19-18.49.52:439][114]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/AGI_FightingGame.uproject" -game -rocket -progress
+[2018.04.19-18.49.52:645][114]Discovering modules, targets and source code for project...
+[2018.04.19-18.49.56:067][114]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.19-18.53.35:341][ 32]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.19-18.53.35:350][ 33]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.56.43:732][126]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.04.19-18.57.07:648][968]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-18.57.07:678][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.07:679][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-18.57.07:683][968]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 20:57:07)
+[2018.04.19-18.57.07:746][968]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-18.57.07:747][968]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.07:773][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026989s)
+[2018.04.19-18.57.07:774][968]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-18.57.07:774][968]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.04.19-18.57.07:774][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.028329s)
+[2018.04.19-18.57.07:806][968]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-18.57.07:855][968]LogInit: FAudioDevice initialized.
+[2018.04.19-18.57.07:912][968]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.57.07:914][968]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-19.57.07
+[2018.04.19-18.57.07:915][968]LogWorld: Bringing up level for play took: 0.002438
+[2018.04.19-18.57.07:915][968]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.57.07:915][968]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.04.19-18.57.07:916][968]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.57.07:916][968]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-18.57.07:916][968]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-18.57.07:916][968]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2018.04.19-18.57.07:918][968]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-18.57.07:918][968]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-18.57.07:919][968]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap 0.827
+[2018.04.19-18.57.07:923][968]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 20:57:07)
+[2018.04.19-18.57.07:977][968]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.57.07:978][968]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.57.07:978][968]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.04.19-18.57.07:978][968]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-18.57.07:978][968]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-18.57.07:978][968]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-18.57.07:979][968]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-18.57.07:983][968]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap 0.891
+[2018.04.19-18.57.07:997][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.07:998][968]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-18.57.07:999][968]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-18.57.07:999][968]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2018.04.19-18.57.07:999][968]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2018.04.19-18.57.07:999][968]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2018.04.19-18.57.08:012][968]Cmd: MEM
+[2018.04.19-18.57.08:021][968]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-18.57.08:021][968]LogMemory: Process Physical Memory: 1438.65 MB used, 1448.25 MB peak
+[2018.04.19-18.57.08:022][968]LogMemory: Process Virtual Memory: 2349.30 MB used, 2353.38 MB peak
+[2018.04.19-18.57.08:022][968]LogMemory: Physical Memory: 8716.17 MB used,  7613.56 MB free, 16329.73 MB total
+[2018.04.19-18.57.08:022][968]LogMemory: Virtual Memory: 3330.64 MB used,  7613.56 MB free, 134217728.00 MB total
+[2018.04.19-18.57.08:022][968]LogMemory: 
+[2018.04.19-18.57.08:022][968]Allocator Stats for TBB: (not implemented)
+[2018.04.19-18.57.08:027][968]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-18.57.08:027][968]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.57.08:029][968]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-19.57.08
+[2018.04.19-18.57.08:030][968]LogWorld: Bringing up level for play took: 0.001726
+[2018.04.19-18.57.08:030][968]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.57.08:031][968]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.08:033][968]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.57.08:034][968]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.08:035][968]LogLoad: Took 0.036349 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-18.57.08:086][969]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-18.57.08:086][969]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_3
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-18.57.08:086][969]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-18.57.08:868][ 25]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.57.08:868][ 25]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.57.08:878][ 25]Cmd: MEM
+[2018.04.19-18.57.08:886][ 25]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-18.57.08:886][ 25]LogMemory: Process Physical Memory: 1438.79 MB used, 1448.25 MB peak
+[2018.04.19-18.57.08:886][ 25]LogMemory: Process Virtual Memory: 2520.91 MB used, 2527.02 MB peak
+[2018.04.19-18.57.08:886][ 25]LogMemory: Physical Memory: 8686.70 MB used,  7643.03 MB free, 16329.73 MB total
+[2018.04.19-18.57.08:887][ 25]LogMemory: Virtual Memory: 3492.27 MB used,  7643.03 MB free, 134217728.00 MB total
+[2018.04.19-18.57.08:887][ 25]LogMemory: 
+[2018.04.19-18.57.08:887][ 25]Allocator Stats for TBB: (not implemented)
+[2018.04.19-18.57.08:887][ 25]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-18.57.08:887][ 25]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.08:910][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022878s)
+[2018.04.19-18.57.08:911][ 25]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-18.57.08:911][ 25]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2018.04.19-18.57.08:912][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.025005s)
+[2018.04.19-18.57.08:912][ 25]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.57.08:919][ 25]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-19.57.08
+[2018.04.19-18.57.08:919][ 25]LogWorld: Bringing up level for play took: 0.006759
+[2018.04.19-18.57.08:920][ 25]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.57.08:920][ 25]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.57.08:921][ 25]LogLoad: Took 0.053230 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-18.57.10:621][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.10:952][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.10:960][198]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-18.57.10:961][198]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-18.57.10
+[2018.04.19-18.57.10:961][198]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-18.57.10:966][198]LogExit: PendingNetDriver None shut down
+[2018.04.19-18.57.12:199][300]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-18.57.12:235][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.12:236][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-18.57.12:240][300]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 20:57:12)
+[2018.04.19-18.57.12:304][300]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-18.57.12:305][300]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.12:327][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022892s)
+[2018.04.19-18.57.12:329][300]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-18.57.12:329][300]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2018.04.19-18.57.12:329][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.024315s)
+[2018.04.19-18.57.12:347][300]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-18.57.12:370][300]LogInit: FAudioDevice initialized.
+[2018.04.19-18.57.12:400][300]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.57.12:402][300]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-19.57.12
+[2018.04.19-18.57.12:403][300]LogWorld: Bringing up level for play took: 0.002420
+[2018.04.19-18.57.12:404][300]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.57.12:404][300]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.04.19-18.57.12:404][300]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.57.12:404][300]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-18.57.12:404][300]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-18.57.12:404][300]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2018.04.19-18.57.12:406][300]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-18.57.12:407][300]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-18.57.12:407][300]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap -0.685
+[2018.04.19-18.57.12:412][300]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 20:57:12)
+[2018.04.19-18.57.12:463][300]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-18.57.12:463][300]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-18.57.12:464][300]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.04.19-18.57.12:464][300]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-18.57.12:464][300]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-18.57.12:464][300]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-18.57.12:465][300]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-18.57.12:468][300]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap -0.623
+[2018.04.19-18.57.12:478][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.12:480][300]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-18.57.12:480][300]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-18.57.12:481][300]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2018.04.19-18.57.12:481][300]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2018.04.19-18.57.12:481][300]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2018.04.19-18.57.12:491][300]Cmd: MEM
+[2018.04.19-18.57.12:500][300]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-18.57.12:500][300]LogMemory: Process Physical Memory: 1496.64 MB used, 1503.34 MB peak
+[2018.04.19-18.57.12:500][300]LogMemory: Process Virtual Memory: 2529.24 MB used, 2550.15 MB peak
+[2018.04.19-18.57.12:500][300]LogMemory: Physical Memory: 8727.94 MB used,  7601.79 MB free, 16329.73 MB total
+[2018.04.19-18.57.12:500][300]LogMemory: Virtual Memory: 3553.58 MB used,  7601.79 MB free, 134217728.00 MB total
+[2018.04.19-18.57.12:501][300]LogMemory: 
+[2018.04.19-18.57.12:501][300]Allocator Stats for TBB: (not implemented)
+[2018.04.19-18.57.12:504][300]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-18.57.12:505][300]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-18.57.12:506][300]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-19.57.12
+[2018.04.19-18.57.12:506][300]LogWorld: Bringing up level for play took: 0.000807
+[2018.04.19-18.57.12:506][300]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.57.12:507][300]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.12:508][300]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-18.57.12:509][300]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-18.57.12:510][300]LogLoad: Took 0.029845 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-18.57.12:554][301]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-18.57.12:554][301]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_5
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-18.57.12:554][301]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-18.57.13:068][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.13:217][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-18.57.13:225][349]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-18.57.13:225][349]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-18.57.13
+[2018.04.19-18.57.13:225][349]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-18.57.13:242][349]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.03.13:177][619]Candidate modules for hot reload:
+[2018.04.19-19.03.13:177][619]  AGI_FightingGame
+[2018.04.19-19.03.13:177][619]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe AGI_FightingGame -ModuleWithSuffix AGI_FightingGame 8769 Win64 Development -editorrecompile -canskiplink "C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/AGI_FightingGame.uproject" ]
+[2018.04.19-19.03.13:183][619]Warning: Starting HotReload took  0.0s.
+[2018.04.19-19.03.45:819][526]CompilerResultsLog: New page: Compilation - 19 Apr 2018 21:03:45
+[2018.04.19-19.03.45:819][526]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.19-19.03.45:819][526]CompilerResultsLog: Parsing headers for AGI_FightingGameEditor
+[2018.04.19-19.03.45:819][526]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\AGI_FightingGame.uproject" "C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\AGI_FightingGameEditor\Development\AGI_FightingGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.19-19.03.45:820][526]CompilerResultsLog: Reflection code generated for AGI_FightingGameEditor in 13.4718167 seconds
+[2018.04.19-19.03.45:820][526]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.19-19.03.45:820][526]CompilerResultsLog: AGI_FightingGameCharacter.cpp
+[2018.04.19-19.03.45:820][526]CompilerResultsLog: P2_Character.cpp
+[2018.04.19-19.03.45:820][526]CompilerResultsLog: [3/4] Link UE4Editor-AGI_FightingGame-8769.dll
+[2018.04.19-19.03.45:820][526]CompilerResultsLog: [4/4] Link UE4Editor-AGI_FightingGame-8769.lib
+[2018.04.19-19.03.45:820][526]CompilerResultsLog:    Creating library C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame-8769.suppressed.lib and object C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame-8769.suppressed.exp
+[2018.04.19-19.03.45:820][526]CompilerResultsLog:    Creating library C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame-8769.lib and object C:\Users\Luke\Documents\REPOS\agirepo\AGI_Project\AGI_FightingGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AGI_FightingGame-8769.exp
+[2018.04.19-19.03.45:821][526]CompilerResultsLog: Total build time: 32.19 seconds (Local executor: 10.28 seconds)
+[2018.04.19-19.03.45:821][526]LogMainFrame: MainFrame: Module compiling took 32.652 seconds
+[2018.04.19-19.03.45:882][526]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-19.03.45:882][526]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-19.03.45:883][526]LogTemp: Warning: HAHA LONG BOY XDDDDXD
+[2018.04.19-19.03.45:891][526]LogClass: ECurrentState HotReload.
+[2018.04.19-19.03.45:891][526]LogClass: EP2CurrentState HotReload.
+[2018.04.19-19.03.45:897][526]LogContentBrowser: Native class hierarchy updated for 'AGI_FightingGame' in 0.0019 seconds. Added 7 classes and 2 folders.
+[2018.04.19-19.03.45:899][526]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2018.04.19-19.03.45:964][526]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2395 classes and 506 folders.
+[2018.04.19-19.03.45:966][526]Display: HotReload took 32.8s.
+[2018.04.19-19.03.49:858][627]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.03.49:888][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.03.49:889][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.03.49:894][627]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:03:49)
+[2018.04.19-19.03.49:960][627]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.03.49:976][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015864s)
+[2018.04.19-19.03.49:977][627]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.03.49:977][627]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2018.04.19-19.03.49:978][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.017573s)
+[2018.04.19-19.03.50:029][627]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.03.50:104][627]LogInit: FAudioDevice initialized.
+[2018.04.19-19.03.50:137][627]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.03.50:140][627]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.03.50
+[2018.04.19-19.03.50:140][627]LogWorld: Bringing up level for play took: 0.003151
+[2018.04.19-19.03.50:141][627]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.03.50:141][627]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.04.19-19.03.50:141][627]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.03.50:141][627]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.03.50:142][627]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.03.50:142][627]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2018.04.19-19.03.50:143][627]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.03.50:144][627]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.03.50:144][627]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap 1.053
+[2018.04.19-19.03.50:149][627]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:03:50)
+[2018.04.19-19.03.50:200][627]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.03.50:200][627]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.03.50:200][627]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.04.19-19.03.50:200][627]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.03.50:200][627]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.03.50:201][627]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.03.50:201][627]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.03.50:205][627]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap 1.113
+[2018.04.19-19.03.50:216][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.03.50:218][627]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.03.50:218][627]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.03.50:218][627]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2018.04.19-19.03.50:218][627]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2018.04.19-19.03.50:218][627]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2018.04.19-19.03.50:230][627]Cmd: MEM
+[2018.04.19-19.03.50:240][627]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.03.50:240][627]LogMemory: Process Physical Memory: 1544.20 MB used, 1557.37 MB peak
+[2018.04.19-19.03.50:240][627]LogMemory: Process Virtual Memory: 2486.45 MB used, 2618.30 MB peak
+[2018.04.19-19.03.50:240][627]LogMemory: Physical Memory: 8236.42 MB used,  8093.30 MB free, 16329.73 MB total
+[2018.04.19-19.03.50:241][627]LogMemory: Virtual Memory: 3536.97 MB used,  8093.30 MB free, 134217728.00 MB total
+[2018.04.19-19.03.50:241][627]LogMemory: 
+[2018.04.19-19.03.50:241][627]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.03.50:246][627]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.03.50:247][627]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.03.50:248][627]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.03.50
+[2018.04.19-19.03.50:248][627]LogWorld: Bringing up level for play took: 0.001057
+[2018.04.19-19.03.50:248][627]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.03.50:250][627]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.03.50:252][627]LogLoad: Took 0.034323 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.03.50:299][628]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.03.50:299][628]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_14
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.03.50:299][628]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.03.51:212][732]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.03.51:212][732]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.03.51:221][732]Cmd: MEM
+[2018.04.19-19.03.51:229][732]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.03.51:229][732]LogMemory: Process Physical Memory: 1536.46 MB used, 1557.37 MB peak
+[2018.04.19-19.03.51:229][732]LogMemory: Process Virtual Memory: 2597.83 MB used, 2647.77 MB peak
+[2018.04.19-19.03.51:229][732]LogMemory: Physical Memory: 8232.94 MB used,  8096.79 MB free, 16329.73 MB total
+[2018.04.19-19.03.51:229][732]LogMemory: Virtual Memory: 3670.66 MB used,  8096.79 MB free, 134217728.00 MB total
+[2018.04.19-19.03.51:229][732]LogMemory: 
+[2018.04.19-19.03.51:229][732]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.03.51:229][732]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.03.51:247][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017687s)
+[2018.04.19-19.03.51:248][732]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.03.51:249][732]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2018.04.19-19.03.51:249][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.019291s)
+[2018.04.19-19.03.51:249][732]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.03.51:255][732]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.03.51
+[2018.04.19-19.03.51:255][732]LogWorld: Bringing up level for play took: 0.005658
+[2018.04.19-19.03.51:256][732]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.03.51:256][732]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.03.51:258][732]LogLoad: Took 0.045309 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-19.03.58:502][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.03.58:633][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.03.58:643][577]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: None, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.03.58:643][577]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: None, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.03.58
+[2018.04.19-19.03.58:643][577]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: None, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.03.58:649][577]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.03.59:627][663]LogSlate: Took 0.002956 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.19-19.04.00:394][741]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.04.00:425][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.00:425][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.04.00:430][741]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:04:00)
+[2018.04.19-19.04.00:493][741]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.04.00:518][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024810s)
+[2018.04.19-19.04.00:519][741]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.04.00:519][741]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2018.04.19-19.04.00:519][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.026426s)
+[2018.04.19-19.04.00:536][741]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.04.00:547][741]LogInit: FAudioDevice initialized.
+[2018.04.19-19.04.00:617][741]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.04.00:620][741]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.04.00
+[2018.04.19-19.04.00:621][741]LogWorld: Bringing up level for play took: 0.002733
+[2018.04.19-19.04.00:621][741]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.04.00:621][741]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.04.19-19.04.00:622][741]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.04.00:622][741]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.04.00:622][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.04.00:622][741]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2018.04.19-19.04.00:623][741]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.04.00:624][741]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.04.00:624][741]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap -0.467
+[2018.04.19-19.04.00:628][741]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:04:00)
+[2018.04.19-19.04.00:687][741]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.04.00:687][741]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.04.00:687][741]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.04.19-19.04.00:687][741]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.04.00:687][741]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.04.00:687][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.04.00:688][741]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.04.00:691][741]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap -0.401
+[2018.04.19-19.04.00:703][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.00:704][741]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.04.00:704][741]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.04.00:705][741]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2018.04.19-19.04.00:705][741]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2018.04.19-19.04.00:705][741]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2018.04.19-19.04.00:717][741]Cmd: MEM
+[2018.04.19-19.04.00:726][741]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.04.00:726][741]LogMemory: Process Physical Memory: 1560.61 MB used, 1564.84 MB peak
+[2018.04.19-19.04.00:726][741]LogMemory: Process Virtual Memory: 2583.55 MB used, 2647.77 MB peak
+[2018.04.19-19.04.00:727][741]LogMemory: Physical Memory: 8269.93 MB used,  8059.79 MB free, 16329.73 MB total
+[2018.04.19-19.04.00:727][741]LogMemory: Virtual Memory: 3639.84 MB used,  8059.79 MB free, 134217728.00 MB total
+[2018.04.19-19.04.00:727][741]LogMemory: 
+[2018.04.19-19.04.00:727][741]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.04.00:731][741]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.04.00:731][741]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.04.00:733][741]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.04.00
+[2018.04.19-19.04.00:733][741]LogWorld: Bringing up level for play took: 0.000969
+[2018.04.19-19.04.00:733][741]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.04.00:735][741]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.04.00:737][741]LogLoad: Took 0.032724 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.04.00:784][742]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.04.00:785][742]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_16
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.04.00:785][742]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.04.01:472][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.01:604][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.01:612][818]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.04.01:612][818]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.04.01
+[2018.04.19-19.04.01:613][818]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.04.01:614][818]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.04.51:459][395]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.04.51:502][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.51:503][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.04.51:509][395]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:04:51)
+[2018.04.19-19.04.51:578][395]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.04.51:600][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022054s)
+[2018.04.19-19.04.51:601][395]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.04.51:601][395]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.04.19-19.04.51:601][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.023485s)
+[2018.04.19-19.04.51:648][395]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.04.51:661][395]LogInit: FAudioDevice initialized.
+[2018.04.19-19.04.51:696][395]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.04.51:699][395]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.04.51
+[2018.04.19-19.04.51:699][395]LogWorld: Bringing up level for play took: 0.002281
+[2018.04.19-19.04.51:700][395]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.04.51:700][395]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.04.19-19.04.51:700][395]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.04.51:700][395]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.04.51:701][395]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.04.51:701][395]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2018.04.19-19.04.51:702][395]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.04.51:703][395]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.04.51:703][395]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap 0.612
+[2018.04.19-19.04.51:708][395]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:04:51)
+[2018.04.19-19.04.51:767][395]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.04.51:767][395]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.04.51:767][395]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.04.19-19.04.51:767][395]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.04.51:768][395]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.04.51:768][395]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.04.51:768][395]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.04.51:771][395]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap 0.68
+[2018.04.19-19.04.51:784][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.51:785][395]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.04.51:785][395]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.04.51:785][395]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2018.04.19-19.04.51:785][395]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2018.04.19-19.04.51:785][395]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2018.04.19-19.04.51:796][395]Cmd: MEM
+[2018.04.19-19.04.51:804][395]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.04.51:804][395]LogMemory: Process Physical Memory: 1558.45 MB used, 1571.60 MB peak
+[2018.04.19-19.04.51:804][395]LogMemory: Process Virtual Memory: 2496.28 MB used, 2708.65 MB peak
+[2018.04.19-19.04.51:804][395]LogMemory: Physical Memory: 8751.89 MB used,  7577.84 MB free, 16329.73 MB total
+[2018.04.19-19.04.51:804][395]LogMemory: Virtual Memory: 3549.16 MB used,  7577.84 MB free, 134217728.00 MB total
+[2018.04.19-19.04.51:804][395]LogMemory: 
+[2018.04.19-19.04.51:804][395]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.04.51:810][395]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.04.51:810][395]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.04.51:811][395]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.04.51
+[2018.04.19-19.04.51:812][395]LogWorld: Bringing up level for play took: 0.000825
+[2018.04.19-19.04.51:812][395]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.04.51:814][395]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.04.51:816][395]LogLoad: Took 0.031144 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.04.51:862][396]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.04.51:863][396]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_18
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.04.51:863][396]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.04.52:584][476]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.04.52:584][476]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.04.52:594][476]Cmd: MEM
+[2018.04.19-19.04.52:601][476]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.04.52:602][476]LogMemory: Process Physical Memory: 1551.13 MB used, 1571.60 MB peak
+[2018.04.19-19.04.52:602][476]LogMemory: Process Virtual Memory: 2637.00 MB used, 2708.65 MB peak
+[2018.04.19-19.04.52:602][476]LogMemory: Physical Memory: 8737.51 MB used,  7592.21 MB free, 16329.73 MB total
+[2018.04.19-19.04.52:602][476]LogMemory: Virtual Memory: 3658.66 MB used,  7592.21 MB free, 134217728.00 MB total
+[2018.04.19-19.04.52:602][476]LogMemory: 
+[2018.04.19-19.04.52:602][476]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.04.52:602][476]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.04.52:625][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022905s)
+[2018.04.19-19.04.52:626][476]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.04.52:626][476]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2018.04.19-19.04.52:627][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.024559s)
+[2018.04.19-19.04.52:627][476]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.04.52:636][476]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.04.52
+[2018.04.19-19.04.52:636][476]LogWorld: Bringing up level for play took: 0.008953
+[2018.04.19-19.04.52:637][476]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.04.52:637][476]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.04.52:639][476]LogLoad: Took 0.054894 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-19.04.55:039][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.57:949][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.04.57:957][746]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.04.57:957][746]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.04.57
+[2018.04.19-19.04.57:957][746]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.04.57:960][746]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.05.06:734][646]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.05.06:765][646]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.05.06:765][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.05.06:770][646]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:05:06)
+[2018.04.19-19.05.06:842][646]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.05.06:879][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037839s)
+[2018.04.19-19.05.06:881][646]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.05.06:881][646]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2018.04.19-19.05.06:881][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.039919s)
+[2018.04.19-19.05.06:898][646]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.05.06:930][646]LogInit: FAudioDevice initialized.
+[2018.04.19-19.05.06:974][646]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.05.06:976][646]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.05.06
+[2018.04.19-19.05.06:977][646]LogWorld: Bringing up level for play took: 0.002504
+[2018.04.19-19.05.06:977][646]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.05.06:977][646]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2018.04.19-19.05.06:977][646]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.05.06:978][646]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.05.06:978][646]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.05.06:978][646]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2018.04.19-19.05.06:979][646]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.05.06:980][646]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.05.06:980][646]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap -0.111
+[2018.04.19-19.05.06:985][646]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:05:06)
+[2018.04.19-19.05.07:044][646]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.05.07:044][646]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.05.07:045][646]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2018.04.19-19.05.07:045][646]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.05.07:045][646]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.05.07:045][646]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.05.07:045][646]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.05.07:049][646]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap -0.043
+[2018.04.19-19.05.07:061][646]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.05.07:062][646]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.05.07:063][646]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.05.07:063][646]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2018.04.19-19.05.07:063][646]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2018.04.19-19.05.07:063][646]LogExit: GameNetDriver IpNetDriver_12 shut down
+[2018.04.19-19.05.07:076][646]Cmd: MEM
+[2018.04.19-19.05.07:085][646]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.05.07:085][646]LogMemory: Process Physical Memory: 1563.94 MB used, 1579.38 MB peak
+[2018.04.19-19.05.07:085][646]LogMemory: Process Virtual Memory: 2470.05 MB used, 2708.65 MB peak
+[2018.04.19-19.05.07:086][646]LogMemory: Physical Memory: 8612.27 MB used,  7717.46 MB free, 16329.73 MB total
+[2018.04.19-19.05.07:086][646]LogMemory: Virtual Memory: 3607.09 MB used,  7717.46 MB free, 134217728.00 MB total
+[2018.04.19-19.05.07:086][646]LogMemory: 
+[2018.04.19-19.05.07:086][646]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.05.07:091][646]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.05.07:091][646]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.05.07:092][646]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.05.07
+[2018.04.19-19.05.07:092][646]LogWorld: Bringing up level for play took: 0.000857
+[2018.04.19-19.05.07:093][646]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.05.07:095][646]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.05.07:097][646]LogLoad: Took 0.033822 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.05.07:144][647]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.05.07:144][647]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_20
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.05.07:144][647]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.05.07:775][717]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.05.07:775][717]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.05.07:784][717]Cmd: MEM
+[2018.04.19-19.05.07:794][717]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.05.07:794][717]LogMemory: Process Physical Memory: 1556.06 MB used, 1579.38 MB peak
+[2018.04.19-19.05.07:794][717]LogMemory: Process Virtual Memory: 2618.46 MB used, 2708.65 MB peak
+[2018.04.19-19.05.07:794][717]LogMemory: Physical Memory: 8621.96 MB used,  7707.77 MB free, 16329.73 MB total
+[2018.04.19-19.05.07:794][717]LogMemory: Virtual Memory: 3654.78 MB used,  7707.77 MB free, 134217728.00 MB total
+[2018.04.19-19.05.07:794][717]LogMemory: 
+[2018.04.19-19.05.07:794][717]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.05.07:794][717]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.05.07:818][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023311s)
+[2018.04.19-19.05.07:819][717]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.05.07:819][717]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2018.04.19-19.05.07:819][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.025261s)
+[2018.04.19-19.05.07:820][717]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.05.07:826][717]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.05.07
+[2018.04.19-19.05.07:826][717]LogWorld: Bringing up level for play took: 0.005786
+[2018.04.19-19.05.07:827][717]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.05.07:827][717]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.05.07:828][717]LogLoad: Took 0.053315 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-19.05.16:615][716]LogTemp: Warning: UPPERCUT
+[2018.04.19-19.05.17:999][876]LogTemp: Warning: UPPERCUT
+[2018.04.19-19.05.18:945][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.05.19:086][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.05.19:095][984]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.05.19:095][984]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.05.19
+[2018.04.19-19.05.19:096][984]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.05.19:099][984]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.12.21:403][787]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 113 classes and 0 folders.
+[2018.04.19-19.12.22:064][787]LogSlate: Took 0.001525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.19-19.12.46:460][221]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.04.19-19.12.47:973][327]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.12.48:014][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.12.48:014][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.12.48:018][327]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:12:48)
+[2018.04.19-19.12.48:079][327]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.12.48:104][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025627s)
+[2018.04.19-19.12.48:105][327]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.12.48:106][327]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2018.04.19-19.12.48:106][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.027299s)
+[2018.04.19-19.12.48:178][327]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.12.48:185][327]LogInit: FAudioDevice initialized.
+[2018.04.19-19.12.48:219][327]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.12.48:222][327]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.12.48
+[2018.04.19-19.12.48:223][327]LogWorld: Bringing up level for play took: 0.002591
+[2018.04.19-19.12.48:223][327]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.12.48:223][327]LogTemp: Display: ParseSettings for IpNetDriver_14
+[2018.04.19-19.12.48:223][327]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.12.48:224][327]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.12.48:224][327]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.12.48:224][327]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2018.04.19-19.12.48:225][327]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.12.48:226][327]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.12.48:226][327]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap 1.135
+[2018.04.19-19.12.48:232][327]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:12:48)
+[2018.04.19-19.12.48:283][327]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.12.48:283][327]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.12.48:283][327]LogTemp: Display: ParseSettings for IpNetDriver_15
+[2018.04.19-19.12.48:283][327]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.12.48:283][327]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.12.48:284][327]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.12.48:284][327]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.12.48:287][327]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap 1.196
+[2018.04.19-19.12.48:300][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.12.48:301][327]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.12.48:302][327]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.12.48:302][327]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2018.04.19-19.12.48:302][327]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2018.04.19-19.12.48:302][327]LogExit: GameNetDriver IpNetDriver_14 shut down
+[2018.04.19-19.12.48:320][327]Cmd: MEM
+[2018.04.19-19.12.48:336][327]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.12.48:336][327]LogMemory: Process Physical Memory: 1757.73 MB used, 1770.43 MB peak
+[2018.04.19-19.12.48:337][327]LogMemory: Process Virtual Memory: 2855.58 MB used, 2855.59 MB peak
+[2018.04.19-19.12.48:337][327]LogMemory: Physical Memory: 8253.71 MB used,  8076.02 MB free, 16329.73 MB total
+[2018.04.19-19.12.48:337][327]LogMemory: Virtual Memory: 3916.37 MB used,  8076.02 MB free, 134217728.00 MB total
+[2018.04.19-19.12.48:337][327]LogMemory: 
+[2018.04.19-19.12.48:337][327]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.12.48:345][327]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.12.48:346][327]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.12.48:348][327]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.12.48
+[2018.04.19-19.12.48:348][327]LogWorld: Bringing up level for play took: 0.001025
+[2018.04.19-19.12.48:348][327]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.12.48:358][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Hello
+[2018.04.19-19.12.48:358][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Hello
+[2018.04.19-19.12.48:359][327]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.12.48:360][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Hello
+[2018.04.19-19.12.48:360][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.48:360][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Hello
+[2018.04.19-19.12.48:360][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.48:361][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.48:361][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.48:361][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Hello
+[2018.04.19-19.12.48:361][327]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.48:362][327]LogLoad: Took 0.059679 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.12.48:408][328]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.12.48:409][328]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_22
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.12.48:409][328]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.12.48:569][344]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.48:853][378]LogBlueprintUserMessages: [SideScrollerCharacter_C_0] Hello
+[2018.04.19-19.12.48:853][378]LogBlueprintUserMessages: [SideScrollerCharacter_C_1] Hello
+[2018.04.19-19.12.49:147][412]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.12.49:147][412]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.12.49:168][412]Cmd: MEM
+[2018.04.19-19.12.49:184][412]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.12.49:184][412]LogMemory: Process Physical Memory: 1750.78 MB used, 1770.43 MB peak
+[2018.04.19-19.12.49:184][412]LogMemory: Process Virtual Memory: 3018.59 MB used, 3018.59 MB peak
+[2018.04.19-19.12.49:184][412]LogMemory: Physical Memory: 8249.13 MB used,  8080.59 MB free, 16329.73 MB total
+[2018.04.19-19.12.49:184][412]LogMemory: Virtual Memory: 4018.12 MB used,  8080.59 MB free, 134217728.00 MB total
+[2018.04.19-19.12.49:184][412]LogMemory: 
+[2018.04.19-19.12.49:184][412]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.12.49:185][412]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.12.49:206][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021201s)
+[2018.04.19-19.12.49:207][412]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.12.49:207][412]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2018.04.19-19.12.49:207][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.022640s)
+[2018.04.19-19.12.49:207][412]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.12.49:215][412]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.12.49
+[2018.04.19-19.12.49:215][412]LogWorld: Bringing up level for play took: 0.006978
+[2018.04.19-19.12.49:216][412]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.12.49:216][412]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.12.49:218][412]LogLoad: Took 0.070928 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-19.12.49:989][503]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.12.51:052][630]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.12.51:403][672]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.12.51:512][685]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.12.52:056][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.12.52:192][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.12.52:209][750]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.12.52:209][750]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.12.52
+[2018.04.19-19.12.52:209][750]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.12.52:212][750]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.13.43:179][920]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.04.19-19.13.43:180][920]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] [1509.03] Compile of PersistentLevel.SideScrollerExampleMap successful, but with 1 Warning(s) [in 3 ms] (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap)
+[2018.04.19-19.13.43:255][920]LogSavePackage: Save=80.32ms
+[2018.04.19-19.13.43:255][920]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerExampleMap_Auto1B5147F3D47A7B40CE1864482E6496328.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2018.04.19-19.13.43:262][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto1.umap
+[2018.04.19-19.13.43:266][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap' took 0.159
+[2018.04.19-19.13.43:266][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
+[2018.04.19-19.13.43:269][920]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2018.04.19-19.13.43:285][920]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2018.04.19-19.13.43:285][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter]
+[2018.04.19-19.13.43:356][920]LogSavePackage: Save=57.16ms
+[2018.04.19-19.13.43:356][920]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerCharacter_Auto16938303842B767A9C2508AA9485FA4D6.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2018.04.19-19.13.43:363][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter_Auto1.uasset
+[2018.04.19-19.13.43:363][920]LogFileHelpers: Auto-saving content packages took 0.096
+[2018.04.19-19.14.31:100][567]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.04.19-19.14.32:072][637]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.14.32:113][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.14.32:114][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.14.32:119][637]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:14:32)
+[2018.04.19-19.14.32:179][637]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.14.32:199][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019849s)
+[2018.04.19-19.14.32:200][637]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.14.32:200][637]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2018.04.19-19.14.32:200][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.021543s)
+[2018.04.19-19.14.32:231][637]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.14.32:239][637]LogInit: FAudioDevice initialized.
+[2018.04.19-19.14.32:286][637]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.14.32:288][637]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.14.32
+[2018.04.19-19.14.32:289][637]LogWorld: Bringing up level for play took: 0.002398
+[2018.04.19-19.14.32:289][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.14.32:290][637]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.14.32:290][637]LogTemp: Display: ParseSettings for IpNetDriver_16
+[2018.04.19-19.14.32:290][637]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.14.32:290][637]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.14.32:290][637]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.14.32:290][637]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 7777
+[2018.04.19-19.14.32:291][637]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_0
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.14.32:291][637]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.14.32:292][637]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap -0.799
+[2018.04.19-19.14.32:297][637]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:14:32)
+[2018.04.19-19.14.32:350][637]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.14.32:350][637]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.14.32:350][637]LogTemp: Display: ParseSettings for IpNetDriver_17
+[2018.04.19-19.14.32:350][637]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.14.32:350][637]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.14.32:351][637]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.14.32:351][637]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.14.32:352][637]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap -0.74
+[2018.04.19-19.14.32:359][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.14.32:361][637]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.14.32:361][637]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.14.32:361][637]LogNet: World NetDriver shutdown IpNetDriver_16 [GameNetDriver]
+[2018.04.19-19.14.32:361][637]LogNet: DestroyNamedNetDriver IpNetDriver_16 [GameNetDriver]
+[2018.04.19-19.14.32:361][637]LogExit: GameNetDriver IpNetDriver_16 shut down
+[2018.04.19-19.14.32:381][637]Cmd: MEM
+[2018.04.19-19.14.32:398][637]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.14.32:398][637]LogMemory: Process Physical Memory: 1854.43 MB used, 1865.81 MB peak
+[2018.04.19-19.14.32:398][637]LogMemory: Process Virtual Memory: 2951.65 MB used, 3047.84 MB peak
+[2018.04.19-19.14.32:398][637]LogMemory: Physical Memory: 8230.66 MB used,  8099.07 MB free, 16329.73 MB total
+[2018.04.19-19.14.32:398][637]LogMemory: Virtual Memory: 4034.49 MB used,  8099.07 MB free, 134217728.00 MB total
+[2018.04.19-19.14.32:398][637]LogMemory: 
+[2018.04.19-19.14.32:398][637]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.14.32:403][637]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.14.32:403][637]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.14.32:404][637]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.14.32
+[2018.04.19-19.14.32:405][637]LogWorld: Bringing up level for play took: 0.000824
+[2018.04.19-19.14.32:405][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.14.32:407][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.14.32:408][637]LogLoad: Took 0.047279 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.14.32:432][637]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.04.19-19.14.32:493][638]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.14.32:493][638]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_24
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.14.32:494][638]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.14.33:626][766]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.14.33:626][766]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.14.33:644][766]Cmd: MEM
+[2018.04.19-19.14.33:660][766]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.14.33:660][766]LogMemory: Process Physical Memory: 1854.62 MB used, 1865.81 MB peak
+[2018.04.19-19.14.33:660][766]LogMemory: Process Virtual Memory: 3040.43 MB used, 3129.29 MB peak
+[2018.04.19-19.14.33:661][766]LogMemory: Physical Memory: 8241.49 MB used,  8088.23 MB free, 16329.73 MB total
+[2018.04.19-19.14.33:661][766]LogMemory: Virtual Memory: 4148.18 MB used,  8088.23 MB free, 134217728.00 MB total
+[2018.04.19-19.14.33:661][766]LogMemory: 
+[2018.04.19-19.14.33:661][766]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.14.33:661][766]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.14.33:678][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017113s)
+[2018.04.19-19.14.33:679][766]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.14.33:680][766]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2018.04.19-19.14.33:680][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.019113s)
+[2018.04.19-19.14.33:680][766]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.14.33:687][766]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.14.33
+[2018.04.19-19.14.33:688][766]LogWorld: Bringing up level for play took: 0.007070
+[2018.04.19-19.14.33:688][766]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.14.33:688][766]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.14.33:690][766]LogLoad: Took 0.063304 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-19.14.34:655][880]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.35:023][924]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.36:282][ 75]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.37:392][208]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.40:420][570]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.41:698][723]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.42:591][830]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.45:190][141]LogTemp: Warning: UPPERCUT
+[2018.04.19-19.14.46:535][302]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.47:636][434]LogTemp: Warning: UPPERCUT
+[2018.04.19-19.14.47:812][455]LogBlueprintUserMessages: [SideScrollerCharacter_2] Hello
+[2018.04.19-19.14.48:505][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.14.48:667][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.14.48:683][538]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.14.48:683][538]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.14.48
+[2018.04.19-19.14.48:683][538]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.14.48:685][538]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.14.53:124][ 55]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.04.19-19.18.42:757][753]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-19.18.42:798][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.18.42:799][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-19.18.42:804][753]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:18:42)
+[2018.04.19-19.18.42:866][753]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.18.42:885][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018796s)
+[2018.04.19-19.18.42:886][753]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.18.42:886][753]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.04.19-19.18.42:887][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.020358s)
+[2018.04.19-19.18.42:916][753]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-19.18.42:927][753]LogInit: FAudioDevice initialized.
+[2018.04.19-19.18.42:958][753]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.18.42:961][753]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.18.42
+[2018.04.19-19.18.42:961][753]LogWorld: Bringing up level for play took: 0.002269
+[2018.04.19-19.18.42:962][753]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.18.42:962][753]LogTemp: Display: ParseSettings for IpNetDriver_18
+[2018.04.19-19.18.42:962][753]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.18.42:962][753]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.04.19-19.18.42:963][753]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.18.42:963][753]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 7777
+[2018.04.19-19.18.42:964][753]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	SideScrollerExampleMap_C /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_0
+	Function /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:00E6
+[2018.04.19-19.18.42:964][753]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Possess in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.18.42:965][753]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap -0.127
+[2018.04.19-19.18.42:969][753]PIE: New page: PIE session: SideScrollerExampleMap (19 Apr 2018 21:18:42)
+[2018.04.19-19.18.43:024][753]LogNet: Browse: 127.0.0.1//Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.18.43:024][753]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.04.19-19.18.43:024][753]LogTemp: Display: ParseSettings for IpNetDriver_19
+[2018.04.19-19.18.43:024][753]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.04.19-19.18.43:025][753]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.04.19-19.18.43:025][753]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.04.19-19.18.43:025][753]LogNet: Game client on port 7777, rate 10000
+[2018.04.19-19.18.43:029][753]PIE: Play in editor start time for /Game/SideScrollerCPP/Maps/SideScrollerExampleMap -0.063
+[2018.04.19-19.18.43:041][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.18.43:043][753]LogNet: Browse: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.18.43:043][753]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/MainMenuMap
+[2018.04.19-19.18.43:043][753]LogNet: World NetDriver shutdown IpNetDriver_18 [GameNetDriver]
+[2018.04.19-19.18.43:043][753]LogNet: DestroyNamedNetDriver IpNetDriver_18 [GameNetDriver]
+[2018.04.19-19.18.43:043][753]LogExit: GameNetDriver IpNetDriver_18 shut down
+[2018.04.19-19.18.43:065][753]Cmd: MEM
+[2018.04.19-19.18.43:082][753]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.18.43:082][753]LogMemory: Process Physical Memory: 1769.83 MB used, 1905.68 MB peak
+[2018.04.19-19.18.43:082][753]LogMemory: Process Virtual Memory: 3085.62 MB used, 3129.29 MB peak
+[2018.04.19-19.18.43:082][753]LogMemory: Physical Memory: 8028.41 MB used,  8301.32 MB free, 16329.73 MB total
+[2018.04.19-19.18.43:082][753]LogMemory: Virtual Memory: 4195.55 MB used,  8301.32 MB free, 134217728.00 MB total
+[2018.04.19-19.18.43:082][753]LogMemory: 
+[2018.04.19-19.18.43:082][753]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.18.43:088][753]LogAIModule: Creating AISystem for world MainMenuMap
+[2018.04.19-19.18.43:088][753]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.18.43:089][753]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2018.04.19-20.18.43
+[2018.04.19-19.18.43:090][753]LogWorld: Bringing up level for play took: 0.000877
+[2018.04.19-19.18.43:090][753]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.18.43:092][753]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.18.43:094][753]LogLoad: Took 0.050592 seconds to LoadMap(/Game/SideScrollerCPP/Maps/MainMenuMap)
+[2018.04.19-19.18.43:139][754]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2018.04.19-19.18.43:139][754]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	BP_MyFighterGameInstance_C /Engine/Transient.UnrealEdEngine_0:BP_MyFighterGameInstance_C_26
+	Function /Game/BP_MyFighterGameInstance.BP_MyFighterGameInstance_C:ExecuteUbergraph_BP_MyFighterGameInstance:02B9
+[2018.04.19-19.18.43:139][754]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_BP_MyFighterGameInstance' from node: Set bShowMouseCursor in graph: EventGraph in object: BP_MyFighterGameInstance with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2018.04.19-19.18.43:784][829]LogNet: Browse: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.18.43:784][829]LogLoad: LoadMap: /Game/SideScrollerCPP/Maps/SideScrollerExampleMap
+[2018.04.19-19.18.43:801][829]Cmd: MEM
+[2018.04.19-19.18.43:818][829]LogMemory: Platform Memory Stats for Windows
+[2018.04.19-19.18.43:818][829]LogMemory: Process Physical Memory: 1762.54 MB used, 1905.68 MB peak
+[2018.04.19-19.18.43:818][829]LogMemory: Process Virtual Memory: 3195.91 MB used, 3264.05 MB peak
+[2018.04.19-19.18.43:818][829]LogMemory: Physical Memory: 8002.30 MB used,  8327.43 MB free, 16329.73 MB total
+[2018.04.19-19.18.43:818][829]LogMemory: Virtual Memory: 4281.43 MB used,  8327.43 MB free, 134217728.00 MB total
+[2018.04.19-19.18.43:818][829]LogMemory: 
+[2018.04.19-19.18.43:818][829]Allocator Stats for TBB: (not implemented)
+[2018.04.19-19.18.43:818][829]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap
+[2018.04.19-19.18.43:835][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016586s)
+[2018.04.19-19.18.43:836][829]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.04.19-19.18.43:837][829]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2018.04.19-19.18.43:837][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap (0.018856s)
+[2018.04.19-19.18.43:837][829]LogLoad: Game class is 'AGI_FightingGameGameMode'
+[2018.04.19-19.18.43:845][829]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.04.19-20.18.43
+[2018.04.19-19.18.43:846][829]LogWorld: Bringing up level for play took: 0.007473
+[2018.04.19-19.18.43:846][829]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.18.43:847][829]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.19-19.18.43:848][829]LogLoad: Took 0.063675 seconds to LoadMap(/Game/SideScrollerCPP/Maps/UEDPIE_1_SideScrollerExampleMap)
+[2018.04.19-19.18.46:214][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.18.46:342][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.04.19-19.18.46:359][109]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.18.46:359][109]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2018.04.19-19.18.46
+[2018.04.19-19.18.46:360][109]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL
+[2018.04.19-19.18.46:362][109]LogExit: PendingNetDriver None shut down
+[2018.04.19-19.24.03:865][122]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.04.19-19.24.03:866][122]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] [2129.72] Compile of PersistentLevel.SideScrollerExampleMap successful, but with 1 Warning(s) [in 4 ms] (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap)
+[2018.04.19-19.24.03:943][122]LogSavePackage: Save=83.83ms
+[2018.04.19-19.24.03:943][122]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerExampleMap_Auto2A89BE70B4B5F807C3DD8AD94C1A36D8B.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2018.04.19-19.24.03:954][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto2.umap
+[2018.04.19-19.24.03:958][122]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap' took 0.156
+[2018.04.19-19.24.03:958][122]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2018.04.19-19.24.03:963][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerCPP/Blueprints/P2_Character_BP] ([1] browsable assets)...
+[2018.04.19-19.24.03:978][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerCPP/Blueprints/P2_Character_BP.P2_Character_BP]
+[2018.04.19-19.24.03:978][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerCPP/Blueprints/P2_Character_BP]
+[2018.04.19-19.24.04:020][122]LogSavePackage: Save=28.91ms
+[2018.04.19-19.24.04:020][122]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/P2_Character_BP_Auto2CB618FB740370158C8645ABDC5C6BFFA.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/P2_Character_BP_Auto2.uasset'
+[2018.04.19-19.24.04:026][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/P2_Character_BP_Auto2.uasset
+[2018.04.19-19.24.04:028][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2018.04.19-19.24.04:043][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2018.04.19-19.24.04:043][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter]
+[2018.04.19-19.24.04:110][122]LogSavePackage: Save=52.41ms
+[2018.04.19-19.24.04:110][122]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerCharacter_Auto2D13791614C21F131D422DD90393BC789.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter_Auto2.uasset'
+[2018.04.19-19.24.04:116][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter_Auto2.uasset
+[2018.04.19-19.24.04:116][122]LogFileHelpers: Auto-saving content packages took 0.157
+[2018.04.19-19.26.27:239][861]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2018.04.19-19.26.27:385][861]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.19-19.26.27:638][861]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.19-19.26.27:965][861]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0020 seconds. Added 1 classes and 0 folders.
+[2018.04.19-19.26.27:995][861]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.19-19.27.31:230][265]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Nightshade/Animations/NightshadeCrouchKick/Leg_Sweep_N_Anim_Take_001.Leg_Sweep_N_Anim_Take_001
+[2018.04.19-19.34.04:678][984]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.04.19-19.34.04:679][984]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] [2730.53] Compile of PersistentLevel.SideScrollerExampleMap successful, but with 1 Warning(s) [in 8 ms] (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap)
+[2018.04.19-19.34.04:752][984]LogSavePackage: Save=83.38ms
+[2018.04.19-19.34.04:752][984]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerExampleMap_Auto3DE130FDA4B5956DC43431FB80BB7B3CC.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto3.umap'
+[2018.04.19-19.34.04:761][984]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Maps/SideScrollerExampleMap_Auto3.umap
+[2018.04.19-19.34.04:765][984]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerCPP/Maps/SideScrollerExampleMap' took 0.159
+[2018.04.19-19.34.04:765][984]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
+[2018.04.19-19.34.04:768][984]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2018.04.19-19.34.04:783][984]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2018.04.19-19.34.04:783][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter]
+[2018.04.19-19.34.04:859][984]LogSavePackage: Save=62.36ms
+[2018.04.19-19.34.04:859][984]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerCharacter_Auto3E297E87A47C1DA98BCB330BB47F8C856.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter_Auto3.uasset'
+[2018.04.19-19.34.04:866][984]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Autosaves/Game/SideScrollerCPP/Blueprints/SideScrollerCharacter_Auto3.uasset
+[2018.04.19-19.34.04:866][984]LogFileHelpers: Auto-saving content packages took 0.100
+[2018.04.19-19.43.16:480][638]BlueprintLog: New page: Compile SideScrollerCharacter
+[2018.04.19-19.43.17:374][682]LogSavePackage: Save=60.17ms
+[2018.04.19-19.43.17:374][682]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerCharacterFC7A04984866DCB164C1C7B019A655C4.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Blueprints/SideScrollerCharacter.uasset'
+[2018.04.19-19.43.17:386][682]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Blueprints/SideScrollerCharacter.uasset
+[2018.04.19-19.43.19:672][780]LogSavePackage: Save=22.34ms
+[2018.04.19-19.43.19:672][780]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/P2_Character_BP17FA257B46A49E842281579E064F28EF.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Blueprints/P2_Character_BP.uasset'
+[2018.04.19-19.43.19:683][780]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Blueprints/P2_Character_BP.uasset
+[2018.04.19-19.43.19:818][780]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.04.19-19.43.19:819][780]LogBlueprint: Warning: [Compiler PersistentLevel.SideScrollerExampleMap] [3285.67] Compile of PersistentLevel.SideScrollerExampleMap successful, but with 1 Warning(s) [in 3 ms] (/Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap)
+[2018.04.19-19.43.19:883][780]LogSavePackage: Save=69.97ms
+[2018.04.19-19.43.19:884][780]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/SideScrollerExampleMapD3066866425896058BF6F3A8716FD3B6.tmp' to '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap'
+[2018.04.19-19.43.19:897][780]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap
+[2018.04.19-19.43.19:955][780]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.260
+[2018.04.19-19.43.20:160][780]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.19-19.43.20:650][781]Cmd: QUIT_EDITOR
+[2018.04.19-19.43.20:725][781]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.19-19.43.20:742][781]LogExit: Preparing to exit.
+[2018.04.19-19.43.21:679][781]LogDirectoryWatcher: A directory notification for 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/' was aborted.
+[2018.04.19-19.43.21:767][781]LogExit: Editor shut down
+[2018.04.19-19.43.21:795][781]LogExit: Transaction tracking system shut down
+[2018.04.19-19.43.22:046][781]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.19-19.43.22:046][781]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/' was aborted.
+[2018.04.19-19.43.22:046][781]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.19-19.43.22:046][781]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.19-19.43.22:046][781]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.19-19.43.22:268][781]LogExit: Object subsystem successfully closed.
+[2018.04.19-19.43.22:286][781]LogD3D11RHI: Shutdown
+[2018.04.19-19.43.22:286][781]LogD3D11RHI: CleanupD3DDevice
+[2018.04.19-19.43.22:392][781]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (545)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module SkeletonEditor (543)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (541)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module BlueprintGraph (539)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (537)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module AGI_FightingGame (535)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.04.19-19.43.22:417][781]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.04.19-19.43.22:417][781]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.04.19-19.43.22:422][781]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.04.19-19.43.22:422][781]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.04.19-19.43.22:422][781]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.04.19-19.43.22:422][781]LogDirectoryWatcher: A directory notification for 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/Collections/' was aborted.
+[2018.04.19-19.43.22:422][781]LogDirectoryWatcher: A directory notification for 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Content/Developers/Luke/Collections/' was aborted.
+[2018.04.19-19.43.22:422][781]LogDirectoryWatcher: A directory notification for 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Saved/Collections/' was aborted.
+[2018.04.19-19.43.22:422][781]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.04.19-19.43.22:422][781]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.04.19-19.43.22:422][781]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module Media (479)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2018.04.19-19.43.22:423][781]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2018.04.19-19.43.23:211][781]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2018.04.19-19.43.23:213][781]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2018.04.19-19.43.23:276][781]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2018.04.19-19.43.23:276][781]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2018.04.19-19.43.23:276][781]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2018.04.19-19.43.23:276][781]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2018.04.19-19.43.23:276][781]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2018.04.19-19.43.23:276][781]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2018.04.19-19.43.23:277][781]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2018.04.19-19.43.23:277][781]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2018.04.19-19.43.23:277][781]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2018.04.19-19.43.23:277][781]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2018.04.19-19.43.23:285][781]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2018.04.19-19.43.23:286][781]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2018.04.19-19.43.23:286][781]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2018.04.19-19.43.23:286][781]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2018.04.19-19.43.23:286][781]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2018.04.19-19.43.23:286][781]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2018.04.19-19.43.23:286][781]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.04.19-19.43.23:319][781]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2018.04.19-19.43.23:321][781]LogDirectoryWatcher: A directory notification for 'C:/Users/Luke/Documents/REPOS/agirepo/AGI_Project/AGI_FightingGame/Binaries/Win64' was aborted.
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.04.19-19.43.23:321][781]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.04.19-19.43.23:422][781]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.04.19-19.43.23:522][781]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.04.19-19.43.23:522][781]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.04.19-19.43.23:522][781]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.04.19-19.43.23:522][781]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.04.19-19.43.23:522][781]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.04.19-19.43.23:522][781]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.04.19-19.43.23:523][781]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.04.19-19.43.23:523][781]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.04.19-19.43.23:523][781]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.04.19-19.43.23:523][781]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.04.19-19.43.23:524][781]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.04.19-19.43.23:525][781]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.04.19-19.43.23:528][781]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.04.19-19.43.23:529][781]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.04.19-19.43.23:535][781]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.19-19.43.23:591][781]LogDerivedDataCache: Shutdown
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.19-19.43.23:591][781]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.19-19.43.23:592][781]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.19-19.43.23:593][781]LogOnline: Display: Unloading online subsystem: NULL
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.19-19.43.23:593][781]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.19-19.43.23:593][781]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.19-19.43.23:593][781]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3283AEC5-483E-6F6E-7420-30B84F0B33EE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=6175246141df1c724e9e9898c3da596d%7Cf0d61a9a6b924cdf8cfba529cb2dac5c%7C0df45c02-e512-450f-9950-dbe60296ed26&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.19-19.43.23:614][781]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.19-19.43.23:616][781]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.19-19.43.23:620][781]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.19-19.43.23:623][781]LogExit: Exiting.
+[2018.04.19-19.43.23:654][781]Log file closed, 04/19/18 20:43:23

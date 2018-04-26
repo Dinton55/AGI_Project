@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AGI_FIGHTINGGAME_P2_Character_generated_h
 
-#define AGI_FightingGame_Source_AGI_FightingGame_P2_Character_h_38_RPC_WRAPPERS
-#define AGI_FightingGame_Source_AGI_FightingGame_P2_Character_h_38_RPC_WRAPPERS_NO_PURE_DECLS
+#define AGI_FightingGame_Source_AGI_FightingGame_P2_Character_h_38_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execP2_TakeDamage) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Damage); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->P2_TakeDamage(Z_Param_Damage); \
+		P_NATIVE_END; \
+	}
+
+
+#define AGI_FightingGame_Source_AGI_FightingGame_P2_Character_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execP2_TakeDamage) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Damage); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->P2_TakeDamage(Z_Param_Damage); \
+		P_NATIVE_END; \
+	}
+
+
 #define AGI_FightingGame_Source_AGI_FightingGame_P2_Character_h_38_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAP2_Character(); \
@@ -68,7 +90,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AP2_Character); \
 	FORCEINLINE static uint32 __PPO__CrouchPunchTime() { return STRUCT_OFFSET(AP2_Character, CrouchPunchTime); } \
 	FORCEINLINE static uint32 __PPO__CrouchKickTime() { return STRUCT_OFFSET(AP2_Character, CrouchKickTime); } \
 	FORCEINLINE static uint32 __PPO__MovingPunchTime() { return STRUCT_OFFSET(AP2_Character, MovingPunchTime); } \
-	FORCEINLINE static uint32 __PPO__MovingKickTime() { return STRUCT_OFFSET(AP2_Character, MovingKickTime); }
+	FORCEINLINE static uint32 __PPO__MovingKickTime() { return STRUCT_OFFSET(AP2_Character, MovingKickTime); } \
+	FORCEINLINE static uint32 __PPO__LeftHand() { return STRUCT_OFFSET(AP2_Character, LeftHand); } \
+	FORCEINLINE static uint32 __PPO__RightHand() { return STRUCT_OFFSET(AP2_Character, RightHand); } \
+	FORCEINLINE static uint32 __PPO__LeftFoot() { return STRUCT_OFFSET(AP2_Character, LeftFoot); } \
+	FORCEINLINE static uint32 __PPO__RightFoot() { return STRUCT_OFFSET(AP2_Character, RightFoot); } \
+	FORCEINLINE static uint32 __PPO__health() { return STRUCT_OFFSET(AP2_Character, health); }
 
 
 #define AGI_FightingGame_Source_AGI_FightingGame_P2_Character_h_35_PROLOG

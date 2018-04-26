@@ -4,11 +4,14 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "Components/InputComponent.h"
 #include "Animation/AnimationAsset.h"
 #include "TimerManager.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Components/SphereComponent.h"
+#include "P2_Character.h"
 
 AAGI_FightingGameCharacter::AAGI_FightingGameCharacter()
 {
@@ -16,39 +19,32 @@ AAGI_FightingGameCharacter::AAGI_FightingGameCharacter()
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+	//GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 
 	// Don't rotate when the controller rotates.
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
 
-	//// Create a camera boom attached to the root (capsule)
-	//CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	//CameraBoom->SetupAttachment(RootComponent);
-	//CameraBoom->bAbsoluteRotation = true; // Rotation of the character should not affect rotation of boom
-	//CameraBoom->bDoCollisionTest = false;
-	//CameraBoom->TargetArmLength = 500.f;
-	//CameraBoom->SocketOffset = FVector(0.f,0.f,75.f);
-	//CameraBoom->RelativeRotation = FRotator(0.f,180.f,0.f);
+	// Colliders
+	LeftHand = CreateDefaultSubobject<USphereComponent>(TEXT("Left_Hand"));
+	RightHand = CreateDefaultSubobject<USphereComponent>(TEXT("Right_Hand"));
+	LeftFoot = CreateDefaultSubobject<USphereComponent>(TEXT("Left_Foot"));
+	RightFoot = CreateDefaultSubobject<USphereComponent>(TEXT("Right_Foot"));
 
-	//// Create a camera and attach to boom
-	//SideViewCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("SideViewCamera"));
-	//SideViewCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
-	//SideViewCameraComponent->bUsePawnControlRotation = false; // We don't want the controller rotating the camera
+	// Will only be active in specified state i.e kicking/punching
+	LeftHand->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	RightHand->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	LeftFoot->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	RightFoot->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
-	// Configure character movement
-	//GetCharacterMovement()->bOrientRotationToMovement = true; // Face in the direction we are moving..
-	//GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f); // ...at this rotation rate
-	//GetCharacterMovement()->GravityScale = 2.f;
-	//GetCharacterMovement()->AirControl = 0.80f;
-	//GetCharacterMovement()->JumpZVelocity = 1000.f;
-	//GetCharacterMovement()->GroundFriction = 3.f;
-	//GetCharacterMovement()->MaxWalkSpeed = 600.f;
-	//GetCharacterMovement()->MaxFlySpeed = 600.f;
 
 	CurrentState = ECurrentState::IDLE;
-	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
-	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	ShieldMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shield"));
+	ShieldMesh->SetupAttachment(RootComponent);
+	ShieldMesh->SetRelativeLocation(FVector::ZeroVector);
+	ShieldMesh->SetVisibility(false);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -121,6 +117,22 @@ void AAGI_FightingGameCharacter::Tick(float DeltaSeconds)
 	AddActorWorldOffset(LocalMove);
 }
 
+void AAGI_FightingGameCharacter::OnLeftHandOverlapBegin(UPrimitiveComponent * OverlappedComp, 
+	AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	AP2_Character* P2 = Cast<AP2_Character>(OtherActor);
+
+	if (P2)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("P2 VALID"));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("P2 INVALID"));
+	}
+	
+}
+
 // Idle Punch
 void AAGI_FightingGameCharacter::OnMoveLeftPressed()
 {
@@ -158,7 +170,6 @@ void AAGI_FightingGameCharacter::OnCrouchPressed()
 		CurrentState != ECurrentState::SWEEPKICK)
 	{
 		CurrentState = ECurrentState::CROUCHING;
-		UE_LOG(LogTemp, Warning, TEXT("LADS"));
 	}
 }
 
@@ -175,20 +186,20 @@ void AAGI_FightingGameCharacter::CharacterJump()
 		CurrentState = ECurrentState::JUMPING;
 		FTimerHandle JumpTimeHandle;
 		GetWorldTimerManager().SetTimer(
-			JumpTimeHandle, this, &AAGI_FightingGameCharacter::SetStateToIdle, 3.0f);
+			JumpTimeHandle, this, &AAGI_FightingGameCharacter::SetStateToIdle, JumpTime);
 	}
 }
 
 void AAGI_FightingGameCharacter::OnBlockPressed()
 {
 	CurrentState = ECurrentState::BLOCKING;
-
+	ShieldMesh->SetVisibility(true);
 }
 
 void AAGI_FightingGameCharacter::OnBlockReleased()
 {
 	CurrentState = ECurrentState::IDLE;
-
+	ShieldMesh->SetVisibility(false);
 }
 
 // Idle Kick
@@ -197,8 +208,7 @@ void AAGI_FightingGameCharacter::Kick()
 	if (CurrentState == ECurrentState::IDLE)
 	{
 		CurrentState = ECurrentState::KICKING;
-
-		UE_LOG(LogTemp, Warning, TEXT("KICK TIME: %f"), IdleKickTime);
+		RightFoot->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 
 		FTimerHandle KickTimeHandle;
 		GetWorldTimerManager().SetTimer(
@@ -207,6 +217,7 @@ void AAGI_FightingGameCharacter::Kick()
 	else if (CurrentState == ECurrentState::CROUCHING)
 	{
 		CurrentState = ECurrentState::SWEEPKICK;
+		RightFoot->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 
 		FTimerHandle KickTimeHandle;
 		GetWorldTimerManager().SetTimer(
@@ -230,12 +241,14 @@ void AAGI_FightingGameCharacter::Kick()
 	}
 }
 
+
 void AAGI_FightingGameCharacter::Punch()
 {
 	if (CurrentState == ECurrentState::IDLE)
 	{
 
 		CurrentState = ECurrentState::PUNCHING;
+		RightHand->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 
 		FTimerHandle PunchTimeHandle;
 		GetWorldTimerManager().SetTimer(
@@ -244,13 +257,14 @@ void AAGI_FightingGameCharacter::Punch()
 	else if (CurrentState == ECurrentState::CROUCHING)
 	{
 		CurrentState = ECurrentState::UPPERCUT;
-
-		UE_LOG(LogTemp, Warning, TEXT("UPPERCUT"));
+		LeftHand->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 
 		FTimerHandle PunchTimeHandle;
 		GetWorldTimerManager().SetTimer(
 			PunchTimeHandle, this, &AAGI_FightingGameCharacter::SetStateToIdle, CrouchPunchTime);
 	}
+
+	// May get rid of these.
 	else if (CurrentState == ECurrentState::MOVING)
 	{
 		CurrentState = ECurrentState::MOVEPUNCH;
@@ -267,4 +281,15 @@ void AAGI_FightingGameCharacter::Punch()
 		GetWorldTimerManager().SetTimer(
 			PunchTimeHandle, this, &AAGI_FightingGameCharacter::SetStateToIdle, JumpPunchTime);
 	}
+}
+
+
+void AAGI_FightingGameCharacter::SetStateToIdle()
+{
+	CurrentState = ECurrentState::IDLE;
+
+	LeftHand->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	RightHand->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	LeftFoot->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	RightFoot->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }

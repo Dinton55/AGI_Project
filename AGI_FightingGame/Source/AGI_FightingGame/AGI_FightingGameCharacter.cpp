@@ -40,6 +40,8 @@ AAGI_FightingGameCharacter::AAGI_FightingGameCharacter()
 
 
 	CurrentState = ECurrentState::IDLE;
+	StateToBe = ECurrentState::IDLE;
+
 
 	ShieldMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shield"));
 	ShieldMesh->SetupAttachment(RootComponent);

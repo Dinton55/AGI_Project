@@ -60,6 +60,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "State")	
 		ECurrentState CurrentState;
 
+	ECurrentState StateToBe;
+		
 	void Tick(float DeltaSeconds) override;
 
 	// Animation Times
